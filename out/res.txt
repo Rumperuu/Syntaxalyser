@@ -1,0 +1,43 @@
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by expected 'begin' at line 1, found: 'begim'
+
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by '<statement list>' at line 2.
+	Caused by '<statement>' at line 4.
+	Caused by '<if statement>' at line 4.
+	Caused by expected 'if' at line 11, found: ''
+
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by '<statement list>' at line 2.
+	Caused by '<statement>' at line 4.
+	Caused by '<while statement>' at line 4.
+	Caused by '<statement list>' at line 5.
+	Caused by '<statement>' at line 7.
+	Caused by expected 'identifier', '<if statement>', '<while statement>', '<procedure statement>' or '<until statement>' at line 7, found: 'end'
+
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by '<statement list>' at line 2.
+	Caused by '<statement>' at line 4.
+	Caused by '<while statement>' at line 4.
+	Caused by expected 'loop' at line 7, found: ';'
+
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by '<statement list>' at line 2.
+	Caused by '<statement>' at line 4.
+	Caused by '<while statement>' at line 4.
+	Caused by expected 'end' at line 5, found: '+'
+
+Compilation Exception
+	Caused by '<statement part>' at line 1.
+	Caused by '<statement list>' at line 2.
+	Caused by '<statement>' at line 4.
+	Caused by expected 'identifier', '<if statement>', '<while statement>', '<procedure statement>' or '<until statement>' at line 4, found: 'else'
+
+Compilation Exception
+	Caused by expected 'EOF' at line 12, found: 'call'
+

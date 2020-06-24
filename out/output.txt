@@ -1,0 +1,211 @@
+rggSTART
+
+rggFILE Programs Folder\program1
+[...]
+rggEND <procedure statement>
+rggEND <statement>
+rggEND <statement list>
+rggTOKEN end on line 11
+rggEND <statement part>
+rggTOKEN EOF on line 12
+rggSUCCESS
+
+rggFILE Programs Folder\program2
+rggBEGIN <statement part>
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'begin' at line 1, found: 'begim'
+
+rggFILE Programs Folder\program3
+[...]
+rggTOKEN ) on line 8
+rggEND <procedure statement>
+rggEND <statement>
+rggEND <statement list>
+rggBEGIN <NEW if statement remainder>
+rggEND <NEW if statement remainder>
+rggTOKEN end on line 9
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'if' at line 11, found: ''
+
+rggFILE Programs Folder\program4
+[...]
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 6
+rggBEGIN <statement>
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'identifier', '<if statement>', '<while statement>', '<procedure statement>' or '<until statement>' at line 7, found: 'end'
+
+rggFILE Programs Folder\program5
+[..]
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggEND <statement list>
+rggTOKEN end on line 7
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'loop' at line 7, found: ';'
+
+rggFILE Programs Folder\program6
+[..]
+rggTOKEN IDENTIFIER 'b' on line 5
+rggEND <factor>
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggEND <statement list>
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'end' at line 5, found: '+'
+
+rggFILE Programs Folder\program7
+[...]
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 3
+rggBEGIN <statement>
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'identifier', '<if statement>', '<while statement>', '<procedure statement>' or '<until statement>' at line 4, found: 'else'
+
+rggFILE Programs Folder\program8
+rggBEGIN <statement part>
+rggTOKEN begin on line 1
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 2
+rggTOKEN IDENTIFIER 'get' on line 2
+rggTOKEN ( on line 2
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggEND <argument list>
+rggTOKEN ) on line 2
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 2
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggTOKEN := on line 3
+rggBEGIN <NEW assignment statement remainder>
+rggBEGIN <expression>
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 3
+rggEND <factor>
+rggBEGIN <NEW expression remainder>
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 3
+rggBEGIN <statement>
+rggBEGIN <while statement>
+rggTOKEN while on line 4
+rggBEGIN <condition>
+rggTOKEN IDENTIFIER 'x1' on line 4
+rggBEGIN <conditional operator>
+rggTOKEN /= on line 4
+rggEND <conditional operator>
+rggBEGIN <NEW condition remainder>
+rggTOKEN NUMBER '0' on line 4
+rggEND <NEW condition remainder>
+rggEND <condition>
+rggTOKEN loop on line 4
+rggBEGIN <statement list>
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'x2' on line 5
+rggTOKEN := on line 5
+rggBEGIN <NEW assignment statement remainder>
+rggBEGIN <expression>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'x2' on line 5
+rggEND <factor>
+rggBEGIN <NEW expression remainder>
+rggTOKEN * on line 5
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggEND <factor>
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 5
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggTOKEN := on line 6
+rggBEGIN <NEW assignment statement remainder>
+rggBEGIN <expression>
+rggBEGIN <factor>
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND <factor>
+rggBEGIN <NEW expression remainder>
+rggTOKEN - on line 6
+rggBEGIN <factor>
+rggTOKEN NUMBER '1' on line 6
+rggEND <factor>
+rggEND <NEW expression remainder>
+rggEND <expression>
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggEND <statement list>
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
+rggEND <while statement>
+rggEND <statement>
+rggTOKEN ; on line 7
+rggBEGIN <statement>
+rggBEGIN <assignment statement>
+rggTOKEN IDENTIFIER 'text' on line 8
+rggTOKEN := on line 8
+rggBEGIN <NEW assignment statement remainder>
+rggTOKEN STRING 'the result is ' on line 8
+rggEND <NEW assignment statement remainder>
+rggEND <assignment statement>
+rggEND <statement>
+rggTOKEN ; on line 8
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'text' on line 9
+rggEND <argument list>
+rggTOKEN ) on line 9
+rggEND <procedure statement>
+rggEND <statement>
+rggTOKEN ; on line 9
+rggBEGIN <statement>
+rggBEGIN <procedure statement>
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN <argument list>
+rggTOKEN IDENTIFIER 'x1' on line 10
+rggEND <argument list>
+rggTOKEN ) on line 10
+rggEND <procedure statement>
+rggEND <statement>
+rggEND <statement list>
+rggTOKEN end on line 11
+rggEND <statement part>
+rggCOMPILATION_EXCEPTION
+rggEXPECTED 'EOF' at line 12, found: 'call'
+Programs Folder\program9 does not exist
+
+rggFINISH
